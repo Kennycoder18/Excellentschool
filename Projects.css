@@ -167,9 +167,9 @@ body{
     margin-right: 80px;
 }
 .content img{
-    width: 50%;
+    width: 80%;
     height: auto;
-    margin-left: 80px;
+    margin-inline: 20px;
     border-radius: 12px;
 }
 /* .content #pr{
@@ -271,6 +271,8 @@ body{
 @media only screen and (min-width: 700px){
     .modal-content {
         width: 100%;
+        height: auto;
+        
     }
 }
   /* inserted */
@@ -303,7 +305,7 @@ body{
         grid-template-columns: repeat(3, 1fr);
     }
     @media (width >= 1000px){
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 .Gallery{
@@ -386,7 +388,7 @@ footer{
         margin: 0;   
     }
     .content img{
-        width: 100%;
+        width: 90%;
         height: auto;
         margin-inline: 20px;
 
@@ -394,7 +396,7 @@ footer{
     .container2 img{
         width: 100%;
         height: auto;
-        margin-inline: 20px;
+        padding-inline: 20px;
         float: none;
     }
     .container2 h2{
@@ -409,7 +411,7 @@ footer{
     div.gallery{
         width: 80%;
         height: auto;
-        margin-inline: auto;
+        margin-inline: 30px;
     }
     div.desc {
         background-color: #fff;
