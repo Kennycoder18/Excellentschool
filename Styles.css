@@ -164,9 +164,8 @@ body{
     padding-top: 200px;
 }
 hr{
-    width: 1400px;
+    margin-inline: 30px;
     height: 5px;
-    margin-left: 110px;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: maroon;
