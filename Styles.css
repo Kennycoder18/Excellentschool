@@ -9,6 +9,10 @@
     background: linear-gradient(to top, rgb(250, 224, 219),rgb(247, 148, 128));
     transition: 0.8s ease-in;
 }
+html{
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
 .Main{
     transition: 0.3s ease-in-out;
 }
