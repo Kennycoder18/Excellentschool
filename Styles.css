@@ -132,7 +132,7 @@ input:checked ~ .slide{
     transform: translateX(0);
 }
 body{
-    overflow-y: scroll;
+    overflow: hidden;
 }
 .Logo{
     width: auto;
