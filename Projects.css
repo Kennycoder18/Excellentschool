@@ -12,6 +12,10 @@ body{
     background: linear-gradient(to top, rgb(250, 224, 219),rgb(247, 148, 128));
     transition: 0.8s ease-in;
 }
+html{
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
 .slide{
     width: 200px;
     height: 109vh;
